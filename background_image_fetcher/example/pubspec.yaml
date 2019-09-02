@@ -1,0 +1,35 @@
+name: background_image_fetcher_example
+description: Demonstrates how to use the background_image_fetcher plugin.
+publish_to: 'none'
+
+environment:
+  sdk: ">=2.2.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # ANIMATIONS
+  flare_flutter: ^1.5.7  
+
+  # STATE MANAGEMENT
+  provider: ^3.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  background_image_fetcher:
+    path: ../
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/animations/Loading.flr
+
+  fonts:
+     - family: monsterrat
+       fonts:
+         - asset: assets/fonts/Montserrat-Regular.ttf
